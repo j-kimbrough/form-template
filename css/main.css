@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu+Condensed&display=swap');
 
 html {
-    background-color: #307687;
+    background-color: #f0f0ef;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -11,14 +11,14 @@ html {
 
 ::selection {
     color: #000; 
-    background: #FFE8D6;
+    background: lightpink;
 }
 
 h1 {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: normal;
     margin: auto;
-    background: #A2BFB5; 
+    background: #979696; 
     line-height: 2.5em;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: #F6FFF8 ;
+    color: #6ac59a ;
     background-color: lightgray;
     text-decoration: none;
 }
