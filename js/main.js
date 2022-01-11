@@ -1,9 +1,15 @@
 //alert("test");
 
 //https://tinyurl.com/dynamic-html-checker
+
+let myDate = new Date();
+let myYear =  myDate.getFullYear();
+document.getElementById("copyright").innerHTML = myYear;
+
 document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
 
 document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+
 
 //manages mobile nav 
 function myFunction() {
