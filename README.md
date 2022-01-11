@@ -1,5 +1,3 @@
-# portal
+# Form Template
 
-An example portal page
-
-Please feel free to use the HMTL/CSS and JS in this repo as you wish!
+Here is a form we created with HTML, CSS and JavaScript
